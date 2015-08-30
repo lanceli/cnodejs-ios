@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131983BFA610729BD4EC9DA6 /* libPods-cnodejs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A68C391099A72108EDA5BA /* libPods-cnodejs.a */; };
 		7E7CB94A1B921F5200B0A016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB9491B921F5200B0A016 /* main.m */; };
 		7E7CB94D1B921F5200B0A016 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB94C1B921F5200B0A016 /* AppDelegate.m */; };
 		7E7CB9501B921F5200B0A016 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB94F1B921F5200B0A016 /* ViewController.m */; };
@@ -14,6 +15,15 @@
 		7E7CB9551B921F5200B0A016 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CB9541B921F5200B0A016 /* Images.xcassets */; };
 		7E7CB9581B921F5200B0A016 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CB9561B921F5200B0A016 /* LaunchScreen.xib */; };
 		7E7CB9641B921F5300B0A016 /* cnodejsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB9631B921F5300B0A016 /* cnodejsTests.m */; };
+		7E7CB9731B922AC700B0A016 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB9721B922AC700B0A016 /* RootViewController.m */; };
+		7EA67AD81B9231F000CB3BB7 /* TopicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA67AD71B9231F000CB3BB7 /* TopicListViewController.m */; };
+		7EA67ADB1B92BBD900CB3BB7 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA67ADA1B92BBD900CB3BB7 /* Constants.m */; };
+		7EA67ADE1B92BC9600CB3BB7 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA67ADD1B92BC9600CB3BB7 /* APIManager.m */; };
+		7EA67AE61B92BE5200CB3BB7 /* TopicsAuthorJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA67AE11B92BE5200CB3BB7 /* TopicsAuthorJsonModel.m */; };
+		7EA67AE71B92BE5200CB3BB7 /* TopicsDataItemJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA67AE31B92BE5200CB3BB7 /* TopicsDataItemJsonModel.m */; };
+		7EA67AE81B92BE5200CB3BB7 /* TopicsJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA67AE51B92BE5200CB3BB7 /* TopicsJsonModel.m */; };
+		7EE72D171B92C7BA00D4A7C1 /* TopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE72D161B92C7BA00D4A7C1 /* TopicCell.m */; };
+		7EE72D1A1B92C87700D4A7C1 /* TopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE72D191B92C87700D4A7C1 /* TopicCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		643C16F1577D726E9D8CD1E5 /* Pods-cnodejs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cnodejs.release.xcconfig"; path = "Pods/Target Support Files/Pods-cnodejs/Pods-cnodejs.release.xcconfig"; sourceTree = "<group>"; };
 		7E7CB9441B921F5200B0A016 /* cnodejs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cnodejs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7CB9481B921F5200B0A016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7CB9491B921F5200B0A016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +51,25 @@
 		7E7CB95D1B921F5300B0A016 /* cnodejsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cnodejsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7CB9621B921F5300B0A016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7CB9631B921F5300B0A016 /* cnodejsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cnodejsTests.m; sourceTree = "<group>"; };
+		7E7CB9711B922AC700B0A016 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7E7CB9721B922AC700B0A016 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7EA67AD61B9231F000CB3BB7 /* TopicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicListViewController.h; sourceTree = "<group>"; };
+		7EA67AD71B9231F000CB3BB7 /* TopicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicListViewController.m; sourceTree = "<group>"; };
+		7EA67AD91B92BBD900CB3BB7 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7EA67ADA1B92BBD900CB3BB7 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		7EA67ADC1B92BC9600CB3BB7 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		7EA67ADD1B92BC9600CB3BB7 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		7EA67AE01B92BE5200CB3BB7 /* TopicsAuthorJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicsAuthorJsonModel.h; sourceTree = "<group>"; };
+		7EA67AE11B92BE5200CB3BB7 /* TopicsAuthorJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicsAuthorJsonModel.m; sourceTree = "<group>"; };
+		7EA67AE21B92BE5200CB3BB7 /* TopicsDataItemJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicsDataItemJsonModel.h; sourceTree = "<group>"; };
+		7EA67AE31B92BE5200CB3BB7 /* TopicsDataItemJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicsDataItemJsonModel.m; sourceTree = "<group>"; };
+		7EA67AE41B92BE5200CB3BB7 /* TopicsJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicsJsonModel.h; sourceTree = "<group>"; };
+		7EA67AE51B92BE5200CB3BB7 /* TopicsJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicsJsonModel.m; sourceTree = "<group>"; };
+		7EE72D151B92C7BA00D4A7C1 /* TopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicCell.h; sourceTree = "<group>"; };
+		7EE72D161B92C7BA00D4A7C1 /* TopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicCell.m; sourceTree = "<group>"; };
+		7EE72D191B92C87700D4A7C1 /* TopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicCell.xib; sourceTree = "<group>"; };
+		A5A68C391099A72108EDA5BA /* libPods-cnodejs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cnodejs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D174223844850C6BC609E251 /* Pods-cnodejs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cnodejs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cnodejs/Pods-cnodejs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				131983BFA610729BD4EC9DA6 /* libPods-cnodejs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +91,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C633452ECDCD363D6CC1F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A68C391099A72108EDA5BA /* libPods-cnodejs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		745D4263F9F4359CF2B95D95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D174223844850C6BC609E251 /* Pods-cnodejs.debug.xcconfig */,
+				643C16F1577D726E9D8CD1E5 /* Pods-cnodejs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7E7CB93B1B921F5200B0A016 = {
 			isa = PBXGroup;
 			children = (
 				7E7CB9461B921F5200B0A016 /* cnodejs */,
 				7E7CB9601B921F5300B0A016 /* cnodejsTests */,
 				7E7CB9451B921F5200B0A016 /* Products */,
+				745D4263F9F4359CF2B95D95 /* Pods */,
+				1C633452ECDCD363D6CC1F2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +131,16 @@
 		7E7CB9461B921F5200B0A016 /* cnodejs */ = {
 			isa = PBXGroup;
 			children = (
+				7E7CB9701B922A4A00B0A016 /* Helpers */,
+				7E7CB96F1B922A3900B0A016 /* Views */,
+				7E7CB96E1B922A2900B0A016 /* Models */,
+				7E7CB96D1B92279D00B0A016 /* Controllers */,
 				7E7CB94B1B921F5200B0A016 /* AppDelegate.h */,
+				7EE72D181B92C81D00D4A7C1 /* Interface */,
 				7E7CB94C1B921F5200B0A016 /* AppDelegate.m */,
 				7E7CB94E1B921F5200B0A016 /* ViewController.h */,
 				7E7CB94F1B921F5200B0A016 /* ViewController.m */,
-				7E7CB9511B921F5200B0A016 /* Main.storyboard */,
 				7E7CB9541B921F5200B0A016 /* Images.xcassets */,
-				7E7CB9561B921F5200B0A016 /* LaunchScreen.xib */,
 				7E7CB9471B921F5200B0A016 /* Supporting Files */,
 			);
 			path = cnodejs;
@@ -98,6 +151,8 @@
 			children = (
 				7E7CB9481B921F5200B0A016 /* Info.plist */,
 				7E7CB9491B921F5200B0A016 /* main.m */,
+				7EA67AD91B92BBD900CB3BB7 /* Constants.h */,
+				7EA67ADA1B92BBD900CB3BB7 /* Constants.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,6 +174,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7E7CB96D1B92279D00B0A016 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CB9711B922AC700B0A016 /* RootViewController.h */,
+				7E7CB9721B922AC700B0A016 /* RootViewController.m */,
+				7EA67AD61B9231F000CB3BB7 /* TopicListViewController.h */,
+				7EA67AD71B9231F000CB3BB7 /* TopicListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7E7CB96E1B922A2900B0A016 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7EA67ADF1B92BE4800CB3BB7 /* Topics */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E7CB96F1B922A3900B0A016 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7EE72D151B92C7BA00D4A7C1 /* TopicCell.h */,
+				7EE72D161B92C7BA00D4A7C1 /* TopicCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7E7CB9701B922A4A00B0A016 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7EA67ADC1B92BC9600CB3BB7 /* APIManager.h */,
+				7EA67ADD1B92BC9600CB3BB7 /* APIManager.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7EA67ADF1B92BE4800CB3BB7 /* Topics */ = {
+			isa = PBXGroup;
+			children = (
+				7EA67AE01B92BE5200CB3BB7 /* TopicsAuthorJsonModel.h */,
+				7EA67AE11B92BE5200CB3BB7 /* TopicsAuthorJsonModel.m */,
+				7EA67AE21B92BE5200CB3BB7 /* TopicsDataItemJsonModel.h */,
+				7EA67AE31B92BE5200CB3BB7 /* TopicsDataItemJsonModel.m */,
+				7EA67AE41B92BE5200CB3BB7 /* TopicsJsonModel.h */,
+				7EA67AE51B92BE5200CB3BB7 /* TopicsJsonModel.m */,
+			);
+			name = Topics;
+			sourceTree = "<group>";
+		};
+		7EE72D181B92C81D00D4A7C1 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CB9511B921F5200B0A016 /* Main.storyboard */,
+				7E7CB9561B921F5200B0A016 /* LaunchScreen.xib */,
+				7EE72D191B92C87700D4A7C1 /* TopicCell.xib */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E7CB9671B921F5300B0A016 /* Build configuration list for PBXNativeTarget "cnodejs" */;
 			buildPhases = (
+				CD21A7E99C9DDBC8A79D55D7 /* Check Pods Manifest.lock */,
 				7E7CB9401B921F5200B0A016 /* Sources */,
 				7E7CB9411B921F5200B0A016 /* Frameworks */,
 				7E7CB9421B921F5200B0A016 /* Resources */,
+				FF306FD163B790BF707DC1AA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E7CB9531B921F5200B0A016 /* Main.storyboard in Resources */,
+				7EE72D1A1B92C87700D4A7C1 /* TopicCell.xib in Resources */,
 				7E7CB9581B921F5200B0A016 /* LaunchScreen.xib in Resources */,
 				7E7CB9551B921F5200B0A016 /* Images.xcassets in Resources */,
 			);
@@ -214,6 +332,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CD21A7E99C9DDBC8A79D55D7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF306FD163B790BF707DC1AA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cnodejs/Pods-cnodejs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E7CB9401B921F5200B0A016 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,7 +372,15 @@
 			files = (
 				7E7CB9501B921F5200B0A016 /* ViewController.m in Sources */,
 				7E7CB94D1B921F5200B0A016 /* AppDelegate.m in Sources */,
+				7EA67AE71B92BE5200CB3BB7 /* TopicsDataItemJsonModel.m in Sources */,
+				7EA67AE81B92BE5200CB3BB7 /* TopicsJsonModel.m in Sources */,
+				7EA67AE61B92BE5200CB3BB7 /* TopicsAuthorJsonModel.m in Sources */,
+				7E7CB9731B922AC700B0A016 /* RootViewController.m in Sources */,
+				7EE72D171B92C7BA00D4A7C1 /* TopicCell.m in Sources */,
 				7E7CB94A1B921F5200B0A016 /* main.m in Sources */,
+				7EA67ADE1B92BC9600CB3BB7 /* APIManager.m in Sources */,
+				7EA67AD81B9231F000CB3BB7 /* TopicListViewController.m in Sources */,
+				7EA67ADB1B92BBD900CB3BB7 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +409,7 @@
 				7E7CB9521B921F5200B0A016 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		7E7CB9561B921F5200B0A016 /* LaunchScreen.xib */ = {
@@ -258,6 +418,7 @@
 				7E7CB9571B921F5200B0A016 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,6 +502,7 @@
 		};
 		7E7CB9681B921F5300B0A016 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D174223844850C6BC609E251 /* Pods-cnodejs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cnodejs/Info.plist;
@@ -351,6 +513,7 @@
 		};
 		7E7CB9691B921F5300B0A016 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643C16F1577D726E9D8CD1E5 /* Pods-cnodejs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = cnodejs/Info.plist;
@@ -412,6 +575,7 @@
 				7E7CB9691B921F5300B0A016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E7CB96A1B921F5300B0A016 /* Build configuration list for PBXNativeTarget "cnodejsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +584,7 @@
 				7E7CB96C1B921F5300B0A016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
